@@ -1,3 +1,7 @@
-def load_data(filename):
-    # Placeholder loading logic
-    return [1, 2, 3, 4, 5]
+import pandas as pd
+
+def load_data(pair):
+    # Przykładowy loader danych (docelowo wczytywanie z pliku lub API)
+    return pd.DataFrame({
+        'Close': [1.1, 1.12, 1.13, 1.15, 1.18, 1.14, 1.12, 1.22]
+    })

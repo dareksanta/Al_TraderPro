@@ -1,1 +1,1 @@
-# init file for strategies
+# init file for strategies package
